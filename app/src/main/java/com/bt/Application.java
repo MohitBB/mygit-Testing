@@ -15,7 +15,7 @@ public class Application {
 
         new Overloading().calculateTime();
         new Overloading().calculateTime(1);
-        new Overloading().calculateTime(1,"3");
+        new Overloading().calculateTime(1,"2");
 
         System.exit(SpringApplication.exit(SpringApplication.run(Application.class, args)));
     }
