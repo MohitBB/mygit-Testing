@@ -12,20 +12,10 @@ public class Application {
 
     public static void main(String[] args) {
         System.out.println("Mohit tesdddting");
-        System.out.println("Mohit Here");
-
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
-        System.out.println("Mohit Here");
 
         new Overloading().calculateTime();
         new Overloading().calculateTime(1);
-        new Overloading().calculateTime(1,"2");
+        new Overloading().calculateTime(1,"3");
 
         System.exit(SpringApplication.exit(SpringApplication.run(Application.class, args)));
     }
